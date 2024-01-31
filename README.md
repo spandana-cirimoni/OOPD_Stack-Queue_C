@@ -1,4 +1,4 @@
-# Object Oriented Design Patterns- Stack, Queue and Fixed Array
+# Abstract Data Types - Stack, Queue and Fixed Array
 
 Make use of the Array class to implement three more ADTs:
 
@@ -11,12 +11,18 @@ semantics, i.e., elements are inserted into the of the list and removed from the
 
 • Fixed Array — an ADT that is an array, but cannot grow or shrink.
 
-stack.h - header file of stack
-stack.inl - inline functions of stack
-stack.cpp - implementation of stack
+Stack.h - header file of Stack
+Stack.inl - inline functions of Stack
+Stack.cpp - implementation of Stack
 
 Queue.h - header file of Queue
 Queue.inl - inline functions of Queue
 Queue.cpp - implementation of Queue
 
-fixed_Array
+Fixed_Array.h - header file of Fixed_Array
+Fixed_Array.inl - inline functions of Fixed_Array
+Fixed_Array.cpp - implementation of Fixed_Array header
+
+Array.h - header file of Array
+Array.inl - inline functions of Array
+Array.cpp - implementation of Array header
