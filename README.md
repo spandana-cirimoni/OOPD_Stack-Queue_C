@@ -16,21 +16,21 @@ semantics, i.e., elements are inserted into the of the list and removed from the
 
 ## Files Included
 
-- Array.h and Array_Base.h: Templates for a dynamic array class.
-- Array.inl and Array_Base.cpp - inline functions of Array
-- Array.cpp and Array_Base.cpp - implementation of Array header
+- `Array.h` and `Array_Base.h`: Templates for a dynamic array class.
+- `Array.inl` and `Array_Base.inl` - inline functions of Array
+- `Array.cpp` and `Array_Base.cpp` - implementation of Array header
 
-- Stack.h: Template for a basic stack class.
-- Stack.inl - inline functions of Stack
-- Stack.cpp - implementation of Stack
+- `Stack.h`: Template for a basic stack class.
+- `Stack.inl` - inline functions of Stack
+- `Stack.cpp` - implementation of Stack
   
-- Queue.h - Template for a basic stack class.
-- Queue.inl - inline functions of Queue
-- Queue.cpp - implementation of Queue
+- `Queue.h` - Template for a basic stack class.
+- `Queue.inl` - inline functions of Queue
+- `Queue.cpp` - implementation of Queue
   
-- Fixed_Array.h: Template for a fixed-size array class derived from the dynamic array class.
-- Fixed_Array.inl - inline functions of Fixed_Array
-- Fixed_Array.cpp - implementation of Fixed_Array header
+- `Fixed_Array.h`: Template for a fixed-size array class derived from the dynamic array class.
+- `Fixed_Array.inl` - inline functions of Fixed_Array
+- `Fixed_Array.cpp` - implementation of Fixed_Array header
 
 
 ## How to Use
