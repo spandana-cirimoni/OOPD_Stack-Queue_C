@@ -37,6 +37,13 @@ semantics, i.e., elements are inserted into the of the list and removed from the
 - `Makefile.assignment2`: Makefile for building the project.
 
 
+## Build Instructions
+- To build the project, use the provided build configuration files:
+  make all
+  
+- To clean the project, use:
+  make clean
+
 ## How to Use
 
 1. Include the necessary header file(s) in your C++ code, depending on the data structure you want to use (`Array`, `Fixed_Array`, `Queue`, or `Stack`).
@@ -69,11 +76,3 @@ int main() {
 
     return 0;
 }
-
-# Build Instructions
-To build the project, use the provided build configuration files:
-make all
-
-
-To clean the project, use:
-make clean
