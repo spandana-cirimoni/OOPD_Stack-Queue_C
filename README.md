@@ -4,14 +4,14 @@ This repository contains C++ template implementations for basic array, fixed-siz
 
 Make use of the Array class to implement three more ADTs:
 
-• Stack — an ADT that contains a list of elements such that the list has last-in, first-out (LIFO)
+- Stack — an ADT that contains a list of elements such that the list has last-in, first-out (LIFO)
 semantics, i.e., elements are inserted into the front of the list and removed from the front of
-the list
+the list.
 
-• Queue — an ADT that contains a list of elements such that the list has first-in, first-out (FIFO)
-semantics, i.e., elements are inserted into the of the list and removed from the front of the list;
+- Queue — an ADT that contains a list of elements such that the list has first-in, first-out (FIFO)
+semantics, i.e., elements are inserted into the of the list and removed from the front of the list.
 
-• Fixed Array — an ADT that is an array, but cannot grow or shrink.
+- Fixed Array — an ADT that is an array, but cannot grow or shrink.
 
 
 ## Files Included
@@ -31,6 +31,10 @@ semantics, i.e., elements are inserted into the of the list and removed from the
 - `Fixed_Array.h`: Template for a fixed-size array class derived from the dynamic array class.
 - `Fixed_Array.inl` - inline functions of Fixed_Array
 - `Fixed_Array.cpp` - implementation of Fixed_Array header
+
+### Build Configuration Files:
+- `assignment2.mpc`: MPC (Makefile Project Creator) configuration file for the project.
+- `Makefile.assignment2`: Makefile for building the project.
 
 
 ## How to Use
@@ -65,3 +69,11 @@ int main() {
 
     return 0;
 }
+
+# Build Instructions
+To build the project, use the provided build configuration files:
+make all
+
+
+To clean the project, use:
+make clean
